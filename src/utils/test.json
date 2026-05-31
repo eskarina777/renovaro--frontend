@@ -1,0 +1,35 @@
+"user-calender": [
+  {
+    "date": "2025-12-01",
+    "timeSlots": [
+      { "systemTimeSlotId": 1,  "serviceTimeSlotId": null, "startTimeLabel": "07:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 2,  "serviceTimeSlotId": null, "startTimeLabel": "07:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 3,  "serviceTimeSlotId": 123, "startTimeLabel": "08:00", "timeSlotStatusCode": "AVAILABLE" },
+      { "systemTimeSlotId": 4,  "serviceTimeSlotId": 124, "startTimeLabel": "08:30", "timeSlotStatusCode": "TRANSPORT" },
+      { "systemTimeSlotId": 5,  "serviceTimeSlotId": 125, "startTimeLabel": "09:00", "timeSlotStatusCode": "AVAILABLE"},
+      { "systemTimeSlotId": 6,  "serviceTimeSlotId": 126, "startTimeLabel": "09:30", "timeSlotStatusCode": "TRANSPORT" },
+      { "systemTimeSlotId": 7,  "serviceTimeSlotId": null, "startTimeLabel": "10:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 8,  "serviceTimeSlotId": null, "startTimeLabel": "10:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 9,  "serviceTimeSlotId": null, "startTimeLabel": "11:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 10, "serviceTimeSlotId": null, "startTimeLabel": "11:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 11, "serviceTimeSlotId": null, "startTimeLabel": "12:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 12, "serviceTimeSlotId": null, "startTimeLabel": "12:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 13, "serviceTimeSlotId": null, "startTimeLabel": "13:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 14, "serviceTimeSlotId": null, "startTimeLabel": "13:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 15, "serviceTimeSlotId": null, "startTimeLabel": "14:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 16, "serviceTimeSlotId": null, "startTimeLabel": "14:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 17, "serviceTimeSlotId": null, "startTimeLabel": "15:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 18, "serviceTimeSlotId": null, "startTimeLabel": "15:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 19, "serviceTimeSlotId": null, "startTimeLabel": "16:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 20, "serviceTimeSlotId": null, "startTimeLabel": "16:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 21, "serviceTimeSlotId": null, "startTimeLabel": "17:00", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 22, "serviceTimeSlotId": null, "startTimeLabel": "17:30", "timeSlotStatusCode": null },
+      { "systemTimeSlotId": 23, "serviceTimeSlotId": null, "startTimeLabel": "18:00", "timeSlotStatusCode": "AVAILABLE" },
+      { "systemTimeSlotId": 24, "serviceTimeSlotId": null, "startTimeLabel": "18:30", "timeSlotStatusCode": "TRANSPORT" },
+      { "systemTimeSlotId": 25, "serviceTimeSlotId": null, "startTimeLabel": "19:00", "timeSlotStatusCode": "AVAILABLE" },
+      { "systemTimeSlotId": 26, "serviceTimeSlotId": null, "startTimeLabel": "19:30", "timeSlotStatusCode": "TRANSPORT" },
+      { "systemTimeSlotId": 27, "serviceTimeSlotId": null, "startTimeLabel": "20:00", "timeSlotStatusCode": "AVAILABLE" },
+      { "systemTimeSlotId": 28, "serviceTimeSlotId": null, "startTimeLabel": "20:30", "timeSlotStatusCode": null }
+    ]
+  }
+]

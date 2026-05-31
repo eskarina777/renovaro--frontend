@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  body {
+    background-color: #ffffff;
+  }
+
+  @layer base {
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+  html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .unread-notifications {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 6px;
+    height: 6px;
+    background-color: #ec9393;
+    border-radius: 9999px;
+  }
+  .unread-messages {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 6px;
+    height: 6px;
+    background-color: #ec9393;
+    border-radius: 9999px;
+    transform: translate(4px, 0px);
+  }
+  .online-status-dot {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #5ea480;
+  }
+  .offline-status-dot {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #d3d4d3;
+  }
+  .online-status-dot-chat {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #5ea480;
+  }
+  .offline-status-dot-chat {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #d3d4d3;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  .soft-shadow-2 {
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.04),
+      0 2px 4px rgba(0, 0, 0, 0.06);
+  }
+  .soft-shadow-3 {
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.03),
+      0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .soft-shadow {
+    box-shadow:
+      0 -4px 6px -1px rgba(0, 0, 0, 0.05),
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  .soft-shadow-green {
+    box-shadow:
+      0 -4px 6px -1px rgba(207, 228, 217, 0.4),
+      0 4px 6px -1px rgba(207, 228, 217, 0.6),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .rating-bar-bg {
+    background-color: #e5e7eb;
+  }
+  .rating-bar-fill {
+    background-color: #808080;
+  }
+}
